@@ -110,6 +110,7 @@
 			<input type="text" value="0" class="bil">
 		<?php } ?>			
 	</div>
+	
 </body>
 </html> -->
 
@@ -137,7 +138,42 @@
        </tr>
 </tbody>
 </table>
-</body>
+
+<table rules="none">
+	<thead>
+<tr>
+	<th></th>
+	<th>Pengajar</th>
+	<th>nilai</th>
+</tr>
+</thead>
+    <tbody>
+       <tr>
+           <td>Pengajar teori</td>
+           <td><input type="text" name="bil1" class="bil" autocomplete="off" placeholder="Jumlah SKS"> </td>
+           <td><input type="text" name="bil1" class="bil" autocomplete="off" placeholder="Isi Jumlah Sesi"> </td>
+       </tr>
+       <tr>
+           <td>Pengajar	 Praktek</td>
+           <td><input type="text" name="bil1" class="bil" autocomplete="off" placeholder="Jumlah SKS"> </td>
+           <td><input type="text" name="bil1" class="bil" autocomplete="off" placeholder="Isi Jumlah sesi"> </td>
+       </tr>
+</tbody>
+</table>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var table = document.getElementById("myTable");
+  var row = table.insertRow(0);
+  var cell1 = row.insertCell(0);
+  var cell2 = row.insertCell(1);
+  cell1.innerHTML = "NEW CELL1";
+  cell2.innerHTML = "NEW CELL2";
+}
+</script>
+	</body>
 	<td>
 		<a class="btn btn-sm btn-primary" href="" style=" margin-left: 475px;">Simpan</a>
 		<a class = "btn btn-sm btn-primary" href="#">Batal</a>
