@@ -96,7 +96,7 @@
 	<div class="kalkulator">
 	<th> <h6 class="judul">SKS</h6> </th>
 	<h6 class="judul">SESI</h6> 
-		<form method="post" action="index.php">			
+		<form method="post" action="#">			
 		<br> SKS TEORI : <input type="text" name="bil1" class="bil" autocomplete="off" placeholder="Masukkan Bilangan Pertama"> 
 		<input type="text" name="bil2" class="bil" autocomplete="off" placeholder="Masukkan Bilangan Kedua"> </br>
 		SKS PRAKTIK : <input type="text" name="bil3" class="bil" autocomplete="off" placeholder="Masukkan Bilangan tiga">
