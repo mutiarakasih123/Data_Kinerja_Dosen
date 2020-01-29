@@ -13,8 +13,8 @@
 
 Route::get('/', 'UserController@viewLogin');
 Route::post('/login', 'UserController@onLogin');
- Route::get('/home', function () {
-     return view('home');
+ Route::get('/navbar', function () {
+     return view('tu.tu-navbar');
  });
 
 Route::get('/login', function(){
@@ -30,24 +30,29 @@ Route::get('/navbar', function () {
     return view('dosen.dosen-navbar');
 });
 
+Route::get('/tu-navbar', function () {
+    return view('tu.tu-navbar');
+});
+
 Route::get('/pendidikan', function () {
     return view('dosen.pendidikan');
 });
 
-Route::get('/pelaksanaan-pendidikan', function () {
-    return view('dosen.pelaksanaan-pendidikan');
-});
-
-Route::get('/penelitian', function () {
-    return view('dosen.penelitian');
-});
-
-Route::get('/pengabdian', function () {
-    return view('dosen.pengabdian');
-});
-
 Route::get('/riwayat-kegiatan', function () {
     return view('dosen.riwayat-kegiatan');
+});
+
+Route::get('/tu-subkegiatan', function () {
+    return view('tu.tu-subkegiatan');
+});
+
+Route::get('/tu-pelaksanaanpendidikan', function () {
+    return view('tu.tu-pelaksanaanpendidikan');
+});
+
+
+Route::get('/inputdetail', function () {
+    return view('tu.inputdetail');
 });
 
 Route::get('/test', function () {

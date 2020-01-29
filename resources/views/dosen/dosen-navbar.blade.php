@@ -10,7 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" href="/dist/css/dashboard.css" />
-    <title>Pendidikan</title>
+    <title>Dosen</title>
   
     <style>
       .bd-placeholder-img {
@@ -54,25 +54,9 @@
 		
           <li class="nav-item">
             <a class="nav-link" href="/pendidikan">
-              <span data-feather="users"></span>Pendidikan</a>
+              <span data-feather="users"></span>Pendidikan Formal</a>
           </li>
-		  <li class="nav-item">
-            <a class="nav-link" href="/pelaksanaan-pendidikan">
-              <span data-feather="users"></span>Pelaksanaan Pendidikan</a>
-          </li>
-		  <li class="nav-item">
-            <a class="nav-link" href="/pengabdian">
-              <span data-feather="users"></span>Pengabdian</a>
-          </li>
-		  <li class="nav-item">
-            <a class="nav-link" href="/penelitian">
-              <span data-feather="users"></span>Penelitian</a>
-          </li>
-		  <li class="nav-item">
-            <a class="nav-link" href="/penunjang">
-              <span data-feather="users"></span>Penunjang</a>
-          </li>
-		  <li class="nav-item">
+		  		  <li class="nav-item">
             <a class="nav-link" href="test">
               <span data-feather="users"></span>test</a>
           </li>

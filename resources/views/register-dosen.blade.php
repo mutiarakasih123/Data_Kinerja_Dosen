@@ -60,11 +60,9 @@
         if(isset($message)){
             echo "<div class='alert alert-danger p-1 m-2'>", $message ,"</div>";   
         }?>
-	
-  <button type="submit" class="btn btn-primary" style="
-    margin: 0 auto;
-    display: block;
-">Kirim</button>
+        	
+  <a href="/" class="btn btn-primary" margin: 0 auto;
+    display: block; > Kirim  </a>
 </form>
 
     <!-- Optional JavaScript -->
