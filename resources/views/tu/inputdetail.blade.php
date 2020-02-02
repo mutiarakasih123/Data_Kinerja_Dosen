@@ -46,7 +46,7 @@
   <div class="row">
   @include('tu.tu-navbar') 
   
-	<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+	<!-- <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
 	<div class="container-fluid">
 		<form class="mt-3" action="/diklat-prajabatan" method="POST">
 		@csrf
@@ -109,11 +109,11 @@
 		<?php }else{ ?>
 			<input type="text" value="0" class="bil">
 		<?php } ?>			
-	</div>
+	</div> -->
 	
 </body>
 </html> -->
-
+<!-- 
 <body>
 
 
@@ -191,4 +191,4 @@ function myFunction() {
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
 
 	</body>
-</html>
+</html> -->

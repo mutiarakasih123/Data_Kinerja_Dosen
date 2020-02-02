@@ -65,7 +65,7 @@ tr:nth-child(even) {
 	<div class="container-fluid">
 		<form class="mt-3" action="/diklat-prajabatan" method="POST">
 		@csrf
-		<center> <h5> Kegiatan Dosen</h5> </center>
+		<center> <h5> Sub Kegiatan Dosen</h5> </center>
 		
 <table>
   <tr>
@@ -73,24 +73,6 @@ tr:nth-child(even) {
     <th>Nama Sub Unsur</th>
     <th>Nama Kegiatan</th>
   </tr>
-  <tbody>
-  <?php
-
-  for ($i=0;$i<count($reports);$i++){
-
-  
-  echo("<tr>
-    <td>".$reports[$i]->nama_unsur."</td>
-    <td>".$reports[$i]->nama_subunsur."</td>
-    <td>".$reports[$i]->nama_kegiatan."</td>
-  </tr>");
-
-
-  }
-  ?>
-  </tbody>
-  
-
   
 </table>
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

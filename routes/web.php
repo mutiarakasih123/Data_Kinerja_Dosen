@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Http\Request;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -42,17 +44,30 @@ Route::get('/riwayat-kegiatan', function () {
     return view('dosen.riwayat-kegiatan');
 });
 
-Route::get('/tu-subkegiatan', function () {
-    return view('tu.tu-subkegiatan');
-});
+Route::get('/tu-subkegiatan', 'TUController@viewReportkegiatan');
 
 Route::get('/tu-pelaksanaanpendidikan', function () {
     return view('tu.tu-pelaksanaanpendidikan');
 });
 
+Route::get('/report-kegiatan', function () {
+    return view('report-kegiatan');
+});
+
 
 Route::get('/inputdetail', function () {
     return view('tu.inputdetail');
+});
+
+Route::get('/formreport-kegiatan', function () {
+    return view('formreport-kegiatan');
+});
+
+Route::get('/getSubUnsurByunsurId/{id}', function (Request $request) {
+    $id_unsur = $request->id;
+
+    $subElements = DB::select("select * from tblSubUnsur where id_unsur=?", [$id_unsur]);
+    return $subElements;    
 });
 
 Route::get('/test', function () {

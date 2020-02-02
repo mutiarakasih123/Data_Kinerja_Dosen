@@ -43,7 +43,7 @@
 
 
   <div class="row">
-  @include('admin.navbar') 
+  @include('admin.admin-navbar') 
      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
    <div class="container-fluid">
    <table class="table table-striped">
